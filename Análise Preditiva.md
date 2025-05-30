@@ -155,21 +155,117 @@ As variáveis mais impactantes no modelo final (XGBoost):
       <td>Contract_Month-to-month</td>
       <td>Contrato mês a mês – principal driver de churn</td>
     </tr>
+    <tr>
+      <td>OnlineSecurity_No</td>
+      <td>Falta de segurança online aumenta risco</td>
+    </tr>
+    <tr>
+      <td>DeviceProtection_No</td>
+      <td>Ausência de proteção de dispositivo aumenta risco</td>
+    </tr>
+    <tr>
+      <td>PaymentMethod_Electronic check</td>
+      <td>Pagamento por boleto aumenta risco</td>
+    </tr>
   </tbody>
 </table>
 
-tenure
-Tempo como cliente – quanto maior, menor o risco
-MonthlyCharges
-Cobrança mensal – quanto maior, maior o risco
-Contract_Month-to-month
-Contrato mês a mês – principal driver de churn
-OnlineSecurity_No
-Falta de segurança online aumenta risco
-DeviceProtection_No
-Ausência de proteção de dispositivo aumenta risco
-PaymentMethod_Electronic check
-Pagamento por boleto aumenta risco
+<hr>
+
+## Previsão Futura de Churn
+
+#### Simulamos a taxa de churn nos próximos 6 meses com base nas probabilidades previstas:
+
+<table>
+  <thead>
+    <tr>
+      <th>Mês</th>
+      <th>Cancelamentos Previstos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>120 +</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>140 +</td>
+    </tr>
+     <tr>
+      <td>3Contract_Month-to-month</td>
+      <td>160 +</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>170 +</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>180 +</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>190 +</td>
+    </tr>
+  </tbody>
+</table>
+
+- Curva crescente indica aumento gradual do risco ao longo do tempo.
+
+## Recomendações Que eu Sugiro
+
+#### Drivers Mais Relevantes de Churn
+- Contratos mês a mês
+- Tempo como cliente baixo (tenure maior que 12 meses)
+- Falta de serviços extras (segurança, backup, proteção de dispositivos)
+- Cobrança mensal alta (menor que R$ 80)
+- Método de pagamento “boleto bancário” (Electronic check)
+
+#### Recomendações
+
+<table>
+  <thead>
+    <tr>
+      <th>Estratégia</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ofertas de contratos anuais</td>
+      <td>Promover segurança online, backup e proteção de dispositivo</td>
+    </tr>
+    <tr>
+      <td>Programas de Fidelidade</td>
+      <td>Recompensar clientes com mais de 12 meses</td>
+    </tr>
+     <tr>
+      <td>Campanhas de upsell</td>
+      <td>Promover segurança online, backup e proteção de dispositivo</td>
+    </tr>
+    <tr>
+      <td>Monitoramento contínuo</td>
+      <td>Sistema de detecção automática de clientes em risco</td>
+    </tr>
+    <tr>
+      <td>Personalização de ofertas</td>
+      <td>Baseado na probabilidade individual de churn</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+## Conclusão
+
+A TelecomNext S.A. agora possui uma ferramenta robusta e prática para:
+
+- Antecipar cancelamentos
+- Priorizar ações de CRM
+- Melhorar a experiência do cliente
+- Reduzir perda de receita
+- Este projeto é ideal tanto para apresentação corporativa quanto para portfólio de análise de dados.
 
 
 
