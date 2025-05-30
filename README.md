@@ -42,18 +42,16 @@ Utilizando técnicas de análise exploratória de dados (EDA), modelagem prediti
 
 ## 🔗 Links
 
-- Dashboard do Power BI: Acesse
+- Dashboard do Power BI: <a href="https://app.powerbi.com/view?r=eyJrIjoiMWZjNTdiZDMtM2JjOC00MDVlLWFiMjYtNmIxNjJlNmIzNGQ3IiwidCI6IjBjM2IyYzljLWVlYTctNDJlZi04YTYzLTcwOWIyNjU5NzYxOCJ9">Acesse</a>
 
-- Dashboard em Python (Dash): Acesse
+- Apresentação (Business Analysis): <a href="https://github.com/RastaDados/TelecomNext-S.A./blob/main/Analise%20de%20Mercado.md">Acesse</a>
 
-- Apresentação (Business Analysis): Acesse
-
-- Dashboards e Códigos Utilizados neste Projeto: Acesse
+- Dashboards e Códigos Utilizados neste Projeto: <a href="https://github.com/RastaDados/TelecomNext-S.A./tree/main/Dashboards">Acesse</a>
 
 <hr>
 
 ## ✍️ Autor
 
-- Mateus França - Linkedin
+- Mateus França - <a href="https://www.linkedin.com/in/mateus-fran%C3%A7a-775b57113/">LinkedIn</a>
 
 
