@@ -193,7 +193,7 @@ As variáveis mais impactantes no modelo final (XGBoost):
       <td>140 +</td>
     </tr>
      <tr>
-      <td>3Contract_Month-to-month</td>
+      <td>3</td>
       <td>160 +</td>
     </tr>
     <tr>
